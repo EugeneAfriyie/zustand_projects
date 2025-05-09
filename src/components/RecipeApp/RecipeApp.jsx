@@ -84,7 +84,7 @@ const RecipeApp = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Recipe Name"
-            className="w-full px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-full px-4 py-2 border  rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <input
             type="text"
