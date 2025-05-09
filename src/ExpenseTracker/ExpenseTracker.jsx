@@ -1,10 +1,10 @@
 import { useState } from "react";
-import useStore from "../store";
-
+import useStore from "./Store";
+import React from "react";
 const ExpenseTracker = () => {
   const { expenses, addExpense, removeExpense } = useStore();
-  const [description, setDescription] = useState<string>("");
-  const [amount, setAmount] = useState<number | "">("");
+  const [description, setDescription] = useState("");
+  const [amount, setAmount] = useState("");
 
   const handleAddExpense = () => {
     if (description.trim() === "" || amount === "") return;
