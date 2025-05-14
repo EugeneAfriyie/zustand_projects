@@ -3,7 +3,6 @@
 
 
 
-
-/* body{
-    background: #f70000;
-} */
+ body{
+background-color: black;    /* grid-template-columns: 30%, 40%, 30%; */
+} 
