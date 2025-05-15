@@ -17,7 +17,7 @@ const Dk_Process = () => {
 
 
         
-        <div id='no1' className="flex items-start justify-center flex-col text-white relative lg:p-8 order-2 lg:order-1 w-[300px] border-2">
+        <div id='no1' className="xs:hidden flex items-start justify-center flex-col text-white relative lg:p-8 order-2 lg:order-1 w-[300px] ">
             <div className=" flex items-center justify-center gap-2 ">
                 <p className=' p-0.5 px-2 text-[.6rem] lg:text-sm text-gray-300/70 rounded-xl bg-gray-500/20'>01</p>
                 <h3 className='font-bold text-[1.3rem] lg:text-4xl'>Booking</h3>
@@ -44,11 +44,11 @@ const Dk_Process = () => {
       </div>
 
 
-      <div className="flex flex-col mt-4 sm:justify-center items-center  lg:w-[80%] m-auto relative ">
+      <div className=" flex flex-col mt-4 sm:justify-center sm:items-center  lg:w-[80%] m-auto relative ">
 
         <img src="/src/assets/final.png" className='hidden lg:block' alt="" />
 
-         <div className="flex lg:items-center  justify-center flex-col text-white lg:text-center lg:w-[30rem] m-auto sm:w-[300px] w-[200px] ">
+         <div className="flex lg:items-center  justify-center flex-col text-white lg:text-center lg:w-[30rem] sm:m-auto w-[300px]  ">
             <div className=" flex items-center justify-cente gap-2 ">
                 <p className=' p-0.5 px-2 text-[.6rem] lg:text-sm text-gray-300/70 rounded-xl bg-gray-500/20'>03</p>
                 <h3 className='font-bold text-[1.3rem] lg:text-4xl'>Booking</h3>
@@ -58,7 +58,7 @@ const Dk_Process = () => {
         </div>
       </div>
 
-      <img src="/src/assets/small-screen-ng.png" className='absolute top-80 right-40' alt="" />
+      <img src="/src/assets/small-screen-ng.png" className='absolute top-72 right-10 sm:right-40 lg:hidden' alt="" />
     </div>
   )
 }
